@@ -14,13 +14,12 @@ import {
     DropdownMenuSeparator,
     DropdownMenuTrigger,
   } from "@/components/ui/dropdown-menu"
-import { supabase } from "@supabase/auth-ui-shared"
 import { useRouter } from "next/navigation"
  
   export function UserNav({name, email, avatar}) {
     const router = useRouter();
     const handleLogout = async () => {
-        supabase.auth.signOut();
+        router.push("/auth/signout");
 
      }
     return (
