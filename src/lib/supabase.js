@@ -17,3 +17,5 @@ const executeQuery = async (user_id) => {
 }
 
 export {  executeQuery}
+
+export const dynamic = 'force-dynamic'

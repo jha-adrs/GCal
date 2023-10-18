@@ -73,3 +73,5 @@ const listCalendarEvents = async (auth_token, refresh_token) => {
 
 
 };
+
+export const dynamic = 'force-dynamic'
