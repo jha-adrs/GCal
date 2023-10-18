@@ -12,6 +12,6 @@ config.GOOGLE_SCOPES=[
 ]
 config.GOOGLE_REDIRECT_URI="https://vdmutamoqwuqkwkxsjcf.supabase.co/auth/v1/callback"
 config.GOOGLE_PRIMARY_CALENDAR_URI="https://www.googleapis.com/calendar/v3/calendars/primary/events"
-config.HOST_URI="http://localhost:3000"
+config.HOST_URI="https://g-cal.vercel.app/"
 config.FETCH_EVENTS_URI="/api/fetchevents"
 module.exports = config;
