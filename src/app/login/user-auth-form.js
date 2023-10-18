@@ -40,9 +40,7 @@ export function UserAuthForm({ className, ...props }) {
         redirectTo: `${config.HOST_URI}/auth/callback`
       }
     })
-    setTimeout(() => {
-      setIsLoading(false)
-    }, 3000)
+    setIsLoading(false);
   }
 
 
